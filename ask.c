@@ -9,7 +9,7 @@ int half_circles;
 void init()// wykonuje się na początku programu
 {
     half_circles = 0;
-    last_reed_switch = 0;
+    last_reed_switch = '0';
 }
 void key_pressed(char key) // wykonuje się do wciśnięciu klawisza (lewy górny róg to 0, prawy górny róg to 3 itd. do prawego dolnego rogu 15)
 {
